@@ -1,5 +1,5 @@
 print('Hello, World!')
 
-a = 6
-b = 3
+a = 8
+b = 4
 print(a/b)
