@@ -21,7 +21,7 @@ else:
 '''isYou = True
 while isYou:
     if input("Введите данные: ") == "stop":
-        isYou = False''' # while бесконечный цикл
+        isYou = False # while бесконечный цикл'''
 
 '''language = "russian"
 daytime = "morning"
@@ -58,17 +58,36 @@ test_func("Придурок сука")''' # def with if and else
     print(f"Age: {age}")
 
 
-print_person("Tom", 37)
-''' # Ещё одна функция
+print_person("Tom", 37)'''
 
 '''def print_person(name, age, company="Microsoft"):
     print(f"Name: {name}  Age: {age}  Company: {company}")
 
 
 print_person("Tom", company="JetBrains", age= 24)
-print_person("Кирилл", age= 21, company= "Web-Cult")'''
+print_person("Кирилл", age= 21, company= "Web-Cult")''' # Ещё одна функция
 
+'''def eto_test():
+    print('Привет')
 
+def pro_test(a):
+    if a == 'Привет':
+        print('Успешный тест')
+    else:
+        print('Тест провален')
+eto_test()
+pro_test('Привет')''' # функции
 
+def test_4lena():
+    chlen = input('Введи размер своего банана: ')
+    chlen = int(chlen)
+    if chlen >= 17 and chlen < 30:
+        print('Ахуенный размер, бро')
+    elif chlen < 17:
+        print('ХАХАХА ебать ты лох ебучий')
+    else:
+        print('ебать гигант, ахуеть')
+    print(f"Размер банана: {chlen}")
 
+test_4lena()
 
