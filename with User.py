@@ -78,7 +78,7 @@ def pro_test(a):
 eto_test()
 pro_test('Привет')''' # функции
 
-def test_4lena():
+'''def test_4lena():
     chlen = input('Введи размер своего банана: ')
     chlen = int(chlen)
     if chlen >= 17 and chlen < 30:
@@ -87,7 +87,5 @@ def test_4lena():
         print('ХАХАХА ебать ты лох ебучий')
     else:
         print('ебать гигант, ахуеть')
-    print(f"Размер банана: {chlen}")
-
-test_4lena()
+    print(f"Размер банана: {chlen}")'''
 

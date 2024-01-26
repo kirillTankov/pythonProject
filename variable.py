@@ -1,11 +1,37 @@
-vrble = 5 #задаем переменной целое значение (int)
+'''def iftieblan():
+    a = input()
+    b = input()
 
-float = 4.5 #Тут мы можем использовать не целые числа (float)
+    if a == b:
+        print('Пароль принят')
+    else:
+        print('Пароль не принят')
 
-word = "ну тут как бы можно писать слова и текст" #str
+iftieblan()'''
 
-bool = True #тебя забулили типа, но на самом деле это просто тип данных (bool)
+'''def chet_nechet():
+    num = int(input())
+    if num % 2 == 0:
+        print('Четное')
+    else:
+        print('Нечетное')
 
-str_name = '5' #str
+chet_nechet()''' # Чётное нечётное
 
-print(int(str_name) + vrble)
+'''a = int(input())
+
+if a >= 18:
+    print('Доступ разрешен')
+else:
+    print('Доступ запрещен')'''
+
+'''a = int(input())
+
+if a >= 2 and a <= 17:
+    b = 3
+    p = a * a + b * b
+else:
+    b = 5
+
+p = (a + b) * (a + b)
+print(p)'''
