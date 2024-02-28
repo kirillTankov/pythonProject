@@ -5,6 +5,7 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=options)
 
+
 driver.maximize_window()
 driver.get("https://www.saucedemo.com/")
 
@@ -17,5 +18,6 @@ elePassword.send_keys("secret_sauce")
 
 eleButton.click()
 
+
 #driver.set_page_load_timeout(30)
-#driver.close()
+# driver.close()
