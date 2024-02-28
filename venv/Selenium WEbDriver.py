@@ -18,6 +18,23 @@ elePassword.send_keys("secret_sauce")
 
 eleButton.click()
 
+eleMenu = driver.find_element(By.ID, "react-burger-menu-btn")
+
+eleMenu.cloick()
+
+eleLogout = driver.find_element(By.ID, "logout_sidebar_link")
+
+eleLogout.click()
+
+eleLogin.send_keys("locked_out_user")
+elePassword.send_keys("secret_sauce")
+
+eleButton.click()
+
+'''eleAddCart = driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack")
+
+eleAddCart.click()''' # Добавлен товара в корзину
+
 
 #driver.set_page_load_timeout(30)
 # driver.close()
